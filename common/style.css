@@ -1,0 +1,54 @@
+h2 {
+	font-size: 12pt;
+}
+a {
+	text-decoration: none;
+}
+.ui-page {
+	background-color: #fff;
+}
+
+.mymenu .ui-block-a,
+.mymenu .ui-block-b,
+.mymenu .ui-block-c,
+.mymenu .ui-block-d {
+	height: 120px;
+}
+.menu_inner {
+	height: 106px;
+	margin: 2px;
+	padding: 4px;
+	background-color: #fff;
+	border: 2px solid #bbb;
+}
+#main .menu_inner {
+	height: 106px;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+	background-color: #fff;
+	border: 2px solid #bbb;
+}
+
+.catalog_price {
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+.catalog_info {
+}
+
+.in, .out {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 350ms !important;
+}
+
+/*
+@media all and (max-width:480px) {
+.ui-resposive .ui-block-a,
+.ui-resposive .ui-block-b,
+.ui-resposive .ui-block-c,
+.ui-resposive .ui-block-d {
+	width: 50%;
+	float: left;
+}
+*/
